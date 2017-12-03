@@ -1,11 +1,11 @@
-# AlgorithmsJS
+# AlgorithmsBash
 
 Some Algorithms written in Bash for language studies (PR are welcome)
 
 ## Requirements
 
 - Bash ^4.4.5
-- (Bats)[https://github.com/sstephenson/bats]
+- [Bats](https://github.com/sstephenson/bats)
 
 ## Algorithms
 
