@@ -11,7 +11,7 @@ Some Algorithms written in Bash for language studies (PR are welcome)
 
 | Name 						          | Solutions 								            | Description 										                  |
 |---------------------------|---------------------------------------|---------------------------------------------------|
-| ReverseString			        | 1 								                    | Reverse a given string            								|       
+| ReverseString			        | 2								                    | Reverse a given string            								|       
 
 Dependencies
 ------------
