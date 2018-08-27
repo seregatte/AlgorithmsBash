@@ -1,10 +1,10 @@
-# AlgorithmsBash
+# AlgorithmsBash - [![Build Status](https://travis-ci.org/seregatte/AnsibleSnippets.svg?branch=master)](https://travis-ci.org/seregatte/AnsibleSnippets)
 
 Some Algorithms written in Bash for language studies (PR are welcome)
 
 ## Requirements
 
-- Bash ^4.4.5
+- Bash ^3.2
 - [Bats](https://github.com/sstephenson/bats)
 
 ## Algorithms
