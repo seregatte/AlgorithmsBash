@@ -21,6 +21,7 @@ script:
     docker build --build-arg bashver=${BASHVER} --tag bats/bats:bash-${BASHVER} https://github.com/bats-core/bats-core.git
     printf "FROM bats/bats:bash-${BASHVER}\nWORKDIR /code\nENTRYPOINT []\nCMD [\".\/run_tests.sh\"]" > Dockerfile
     docker build --tag tester:bash-${BASHVER} .
+    docker run -it -v `pwd`:/code tester:bash-${BASHVER}
   fi
 
 notifications:
